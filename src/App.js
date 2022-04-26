@@ -24,9 +24,9 @@ const App = () => {
         }
     }
     return (
-        <div>
+        <div className = "container">
             <h1>Calculadora Gama Academy</h1>
-            <div className = "container">
+            <div className = "corpo">
                 <form>
                     <input type="text" value= {resultado}/>
                 </form>

@@ -11,7 +11,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(80, 78, 78);
 }
 
 h1{
@@ -20,7 +19,7 @@ h1{
     font-size: 40px;
     color: #ffffff;
 }
-.container{
+.corpo{
     top: 50%;
     left: 50%;
     position: absolute;
@@ -28,7 +27,7 @@ h1{
     margin: 0 auto;
     width: 270px;
     text-align: center;
-    border: 10px solid #101116;
+    border: 10px solid #f1f1f1;
     background-color:#101116;
     border-radius: 5px;
 }
@@ -98,14 +97,14 @@ button:active{
 @media only screen and (max-width: 375px)
 {
     body{
-        background-color: #f2f2f2;
+        background-color: #101116;
     }
 
     h1{
         margin-top: 60px;
         color: #101116;
     }
-    .container{
+    .corpo{
         top: 60%;
     }
 }
