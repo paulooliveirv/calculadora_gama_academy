@@ -21,7 +21,7 @@ Abra em: [http://localhost:3000](http://localhost:3000) para ver no browser.
 A página será recarregada quando você fizer alterações.\
 
 
-### `GitHub`
+### `GitHub Pages`
 [Clique aqui para visualizar](https://paulooliveirv.github.io/calculadora_gama_academy/)
 
 
