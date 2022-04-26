@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/calculadora_gama_academy/static/css/main.d499cfb3.css",
-    "main.js": "/calculadora_gama_academy/static/js/main.37d8928b.js",
+    "main.css": "/calculadora_gama_academy/static/css/main.88d27b19.css",
+    "main.js": "/calculadora_gama_academy/static/js/main.290f3d45.js",
     "index.html": "/calculadora_gama_academy/index.html",
-    "main.d499cfb3.css.map": "/calculadora_gama_academy/static/css/main.d499cfb3.css.map",
-    "main.37d8928b.js.map": "/calculadora_gama_academy/static/js/main.37d8928b.js.map"
+    "main.88d27b19.css.map": "/calculadora_gama_academy/static/css/main.88d27b19.css.map",
+    "main.290f3d45.js.map": "/calculadora_gama_academy/static/js/main.290f3d45.js.map"
   },
   "entrypoints": [
-    "static/css/main.d499cfb3.css",
-    "static/js/main.37d8928b.js"
+    "static/css/main.88d27b19.css",
+    "static/js/main.290f3d45.js"
   ]
 }
