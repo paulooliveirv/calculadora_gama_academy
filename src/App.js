@@ -15,6 +15,14 @@ const App = () => {
     const apagaItem = () => {
         mostraResultado(resultado.slice(0, resultado.length -1));
     }
+
+    const calcular = () =>{
+        try{
+            mostraResultado(eval(resultado).toString());
+        }catch(err){
+            mostraResultado("DIGITE NOVAMENTE")
+        }
+    }
     return (
         <div className = "container">
             <form>
@@ -39,7 +47,7 @@ const App = () => {
                 <button className="botoesEspeciais" name= "+" onClick={ clique }>+</button>
                 <button className = "botaoZero" name= "0" onClick={ clique }>0</button>
                 <button className="botoesEspeciais" name= "." onClick={ clique }>.</button>
-                <button className="botoesEspeciais" onClick={ clique } id= "resultado">=</button>
+                <button className="botoesEspeciais" onClick={ calcular } id= "resultado">=</button>
             </div>
         </div>
     );
